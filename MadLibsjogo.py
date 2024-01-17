@@ -1,7 +1,8 @@
 print ("Olá, bem vindo ao jogo dos Ocdp")
-substantivo = input ('digite seu substantivo')
-cor = input (' digite sua cor ')
+objetoinusitado = input ('digite seu substantivo')
+nome = input (' digite um nome ')
 verbo = input (' digite seu verbo')
 adjetivo = input ('digite seu adjetivo')
-HistoriaFormatada = f' Um dia de chuva, sai com a camiseta da cor{cor}.Porem sentir muito {verbo},Mas mesmo assim suando muito fique me sentindo {adjetivo} .me fez o favor de me dar um ventilador para amenizar o calor {substantivo}.'
+idioma = input (' digite um idioma')
+HistoriaFormatada = f'Era uma vez, em um lugar muito distante, um {adjetivo} maconheiro chamado {nome}. Um dia, enquanto explorava o espaço, ele descobriu um portal mágico que o  levou para o Planeta Absurdo. Ao chegar lá, o astronauta ficou surpreso ao ver criaturas {adjetivo} que falavam em {idioma}, ninguem ali se entendia. Ele decidiu se juntar a eles em uma missão para encontrar o lendário {objetoinusitado}, que supostamente concederia desejos mirabolantes.'
 print (HistoriaFormatada)
